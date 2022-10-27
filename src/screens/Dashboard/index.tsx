@@ -88,7 +88,7 @@ export function Dashboard(){
       }).format(new Date(item.date));
 
       return {
-        Id: item.id,
+        id: item.id,
         name: item.name,
         amount,
         type: item.type,
